@@ -1,0 +1,68 @@
+body{
+   font-family: system-ui, -apple-system, sans-serif;
+   line-height: 1.6;
+   background-color: #f8fafc;
+   color: #334155
+
+}
+h1 , h2 , h3 {
+    color: #0f172a;
+
+}
+h2{
+    border-bottom: 1px solid  #cbd5e1;
+
+}
+table{
+    width:100%; 
+    border-collapse:collapse;
+    border: 1px solid #cbd5e1;
+    }
+
+    th{
+    background-color:rgb(214, 176, 210);
+    }
+     ul{
+        
+        list-style:none;
+    }
+
+    nav li{
+        display:inline-block;
+    }
+
+    nav a{
+        text-decoration:none;
+        font-weight:700;
+    }
+    .cartao{
+        background-color:#ffffff;
+        border:50px solid #fae1f8 ; 
+        border-radius: 10px;
+    }
+    .curiosidade{
+        border-left:#fae1f8;
+        border-right:#f8fafc;
+        background-color:#fae1f8 ;
+
+    }
+    .botao{
+        background-color:#cbd5e1;
+        color:#f8fafc;
+        border:none;
+        border-radius:8px;
+        padding: 12px 20px;
+        cursor:pointer;
+        font-size: 16px;
+    }
+    
+    #sugestoes{
+        background-color:aliceblue;
+        border-radius: 10px;
+
+    }
+    
+
+
+    
+
