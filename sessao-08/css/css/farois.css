@@ -1,0 +1,65 @@
+:root{
+    --azul-escuro:#0f172a;
+    --fundo-claro:#f1f5f9;
+    --branco:#ffffff;
+    --vermelho:#dc2626;
+}
+
+body{
+
+}
+h1{
+
+}
+h2{
+
+}
+h3{
+
+}
+p{
+
+}
+a{
+
+}
+img{
+
+}
+header{
+
+}
+footer{
+
+}
+table{
+    border-collapse: collapse;
+}
+
+th{
+    background-color:#0011ff;
+    color:#ffffff;
+    border:1px solid #000000;
+}
+
+td{
+border: 1px solid #000;
+}
+nav ul, nav li, nav a{
+
+}
+.botao{
+
+}
+.cartao{
+
+}
+.botao-secundario{
+
+}
+.destaque{
+
+}
+#agendamento{
+    
+}
