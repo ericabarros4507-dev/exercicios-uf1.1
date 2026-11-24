@@ -1,0 +1,131 @@
+/* =========================================================
+   Paleta Inspirada nos Elétricos
+   - Amarelo elétrico (destaque / primária): #facc15
+   - Quase preto (texto principal / fundos escuros): #1c1917
+   - Cinzento (texto secundário): #57534e
+   - Cinzento claro (bordas): #d6d3d1
+   - Vermelho (avisos / alertas): #dc2626
+   ========================================================= */
+
+/* Reset e Box Model */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #1c1917;
+  background-color: #f5f5f4;
+  line-height: 1.5;
+}
+
+/* Títulos com fonte do Google Fonts */
+h1, h2, h3 {
+  font-family: 'Rubik', sans-serif;
+  margin-top: 0;
+  color: #1c1917;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #facc15;
+  padding: 24px 20px;
+  border-bottom: 6px solid #1c1917;
+}
+
+/* Subtítulo */
+.subtitulo {
+  color: #57534e;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 6px 0 16px;
+}
+
+/* Links do menu em formato de "pílula" */
+header nav a {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-right: 8px;
+  margin-bottom: 6px;
+  background-color: #1c1917;
+  color: #facc15;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 999px;
+}
+
+header nav a:hover {
+  opacity: 0.9;
+}
+
+/* Conteúdo principal centrado */
+main {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 28px 16px;
+}
+
+/* Títulos secundários com barra amarela à esquerda */
+h2 {
+  border-left: 6px solid #facc15;
+  padding-left: 12px;
+}
+
+/* Cartões */
+.cartao {
+  background-color: #ffffff;
+  border: 1px solid #d6d3d1;
+  border-top: 5px solid #facc15;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 12px rgba(28, 25, 23, 0.08);
+}
+
+/* Imagem dentro do cartão */
+.cartao img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  padding: 8px;
+  border: 1px solid #d6d3d1;
+  border-radius: 10px;
+  margin-top: 14px;
+}
+
+/* Etiqueta do número da linha */
+.numero-linha {
+  display: inline-block;
+  padding: 4px 12px;
+  background-color: #facc15;
+  color: #1c1917;
+  border: 2px solid #1c1917;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+/* Caixa de curiosidade com fundo em rgb() */
+.curiosidade {
+  background-color: rgb(254, 249, 195);
+  color: #1c1917;
+  border: 1px solid #d6d3d1;
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+
+/* Caixa de aviso com fundo em hsl() e borda tracejada */
+.aviso {
+  background-color: hsl(0, 93%, 94%);
+  color: #dc2626;
+  border: 2px dashed #dc2626;
+  border-radius: 8px;
+  padding: 14px 16px;
+  font-weight: 500;
+}
